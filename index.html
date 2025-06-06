@@ -8,42 +8,90 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav class="navbar">
-    <div class="nav-container">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-    </div>
-  </nav>
+  <button class="toggle-dark" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+ 
   <header>
     <h1>Yamuna Chinnadurai</h1>
-    <p>Senior Software Developer | Microsoft Certified | Azure | .NET | React</p>
+    <p>Senior Software Developer </p>
+    <p>
+      <a href="mailto:yamuna.chinnadurai@gmail.com">yamuna.chinnadurai@gmail.com</a> |
+      <a href="https://www.linkedin.com/in/yamunachinnadurai/">LinkedIn:yamunachinnadurai</a> |
+      Toronto, Canada
+    </p>
   </header>
-  <section id="about"><h2>About Me</h2><p>12+ years of experience in Microsoft technologies.</p></section>
-  
+ <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Work Experience</a>
+	  <a href="#certificate">Certificates</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+  <section id="home">
+    <h2>About Me</h2>
+    <p>With 12+ years of experience in Microsoft .Net development,I'm now upskilling in AL,ML,Cloud and full stack development.Currently focussed on Python,ML.Net and modern frameworks to transition into high impact,future ready tech roles.Passionate about clean code, continuous learning, and building smart and scalable solutions.</p>
+  </section>
+
+
 <section id="skills">
-  <h2>Technical Skills</h2>
+  <h2>Areas of Specialisation </h2>
   <ul class="skills-list">
     <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" /> C#</li>
-    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET" /> .NET</li>
-    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" /> React</li>
+    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET" /> .NET</li>   
     <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" /> Azure</li>
     <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" /> Git</li>
-    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL Server" /> SQL Server</li>
-    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" /> HTML5</li>
-    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" /> CSS3</li>
-    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" /> JavaScript</li>
-    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" /> TypeScript</li>
-    <li><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/000000/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png" alt="Postman" /> Postman</li>
-    <li><img src="https://img.icons8.com/fluency/48/azure-1.png" alt="Azure DevOps" /> Azure DevOps</li>
+    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL Server" /> SQL Server</li> 
+  </ul>
+   <h2>Areas of Interest </h2>
+  <ul>
+    <li> Machine Learning</li>
+    <li> Gen AI</li>   
   </ul>
 </section>
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> C#, HTML5, CSS3, JavaScript, TypeScript, SQL</li>
+      <li><strong>Frameworks:</strong> .NET 6, .NET Core, MVC, React, Redux</li>
+      <li><strong>DevOps & Tools:</strong> Azure DevOps, Git, GitHub, Postman, Swagger, Dynatrace</li>
+      <li><strong>Databases:</strong> SQL Server, SSIS, SSRS</li>
+      <li><strong>Testing:</strong> NUnit, Benchmark Testing</li>
+      <li><strong>Certifications:</strong> AZ-305, AZ-204, AZ-104, AZ-400, AZ-900</li>
+    </ul>
+  </section>
 
-  <section id="projects"><h2>Projects</h2><p>Details...</p></section>
-  
-<section id="experience">
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">      
+      <div>
+        <h3>Branch Technology Modernization</h3>
+        <p>Rewrote a legacy monolithic app using DDD and .NET 6 with Azure DevOps, OpenTelemetry, and REST APIs.</p>
+      </div>
+    </div>
+    <div class="project-card">     
+      <div>
+        <h3>Currency Upgrade</h3>
+        <p>Migrated .NET 3.5 applications to .NET 6; restructured front-end components and modernized services.</p>
+      </div>
+    </div>
+    <div class="project-card">     
+      <div>
+        <h3>Social Development App</h3>
+        <p>Responsive Angular web applications for BC Government with secure DevOps pipelines.</p>
+      </div>
+    </div>
+    <div class="project-card">      
+      <div>
+        <h3>Digitization (E-Forms)</h3>
+        <p>Built E-Forms and digital signatures using Adobe LiveCycle and .NET framework for Bank of Montreal.</p>
+      </div>
+    </div>
+  </section>
+
+ <section id="experience">
   <h2>Experience</h2>
   <div class="timeline">
     <div class="timeline-item">
@@ -73,6 +121,52 @@
   </div>
 </section>
 
-  <section id="education"><h2>Education</h2><p>B.Tech (IT), Anna University</p></section>
+<section id="certificate">
+    <h2>Certificates</h2>
+	<ul>
+	<li>Azure Soultions Architect</li>
+	<li>Azure Devops</li>
+	<li>Azure Fundamentals</li>
+	</ul>  
+  </section>
+  
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>B.Tech (Information Technology)</strong>, Anna University – 2011 (80.37%)</p>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact:</h2>
+    <p><strong>MailTo: </strong> yamuna.chinnadurai@outlook.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Yamuna Chinnadurai | Portfolio</p>
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('section').forEach(section => {
+      observer.observe(section);
+    });
+  </script>
 </body>
+
 </html>
