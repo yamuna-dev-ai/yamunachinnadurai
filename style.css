@@ -1,0 +1,78 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f7fa;
+  color: #333;
+}
+header {
+  background: #005fa3;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+.navbar {
+  background: white;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+}
+.nav-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+}
+.skills-list li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.skills-list img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.timeline {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 40px;
+  border-left: 3px solid #0078d4;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  background-color: #0078d4;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.timeline-content {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
